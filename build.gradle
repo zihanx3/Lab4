@@ -18,6 +18,7 @@ javadoc {
     source = sourceSets.main.allJava
     destinationDir = file('docs')
     title = "Lab4"
+    options.addBooleanOption('html5', true)
 }
 
 // vim: ts=4:sw=4:et:ft=groovy
