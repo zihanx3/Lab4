@@ -72,7 +72,7 @@ public class Colosseum {
      *         Implement this function.
      */
     public static Pokemon buildPokemon() {
-        String pokemonName = myScan.next();
+        String name = myScan.next();
         int hit = myScan.nextInt();
         int attackLevel = myScan.nextInt();
         int defenseLevel = myScan.nextInt();
